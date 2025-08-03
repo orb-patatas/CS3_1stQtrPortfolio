@@ -5,7 +5,7 @@
 * 20 pesos per kilo of rice
 * Strengthening alliances during maritime tensions
 * Free healthcare in DOH hospitals
-* Vowing to publisj all projects and persecuting those being a hindrance to it  
+* Vowing to publish all projects and persecuting those being a hindrance to it  
 
 **Give 1-3 key points from SONA 2025 that you found weird for any reason(explaining is optional)**
 * A lot were waiting for the topic of online gambling and was really disappointed when it wasn't mentioned  
