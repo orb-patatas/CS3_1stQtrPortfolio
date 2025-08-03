@@ -22,3 +22,5 @@ We still have hope !
 
 
 Furthermore, include an image or youtube video of the SONA in the .md file
+
+[YouTube](https://www.youtube.com/live/zsZ1T0hsLvA?si=SkVZis6sxl_EZADZ)
