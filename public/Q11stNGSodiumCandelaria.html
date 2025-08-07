@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Favorite Snack</title>
+
+   <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-image: url('greenBg.jpg'); 
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      margin: 0;
+      color: rgb(79, 72, 79);
+      font-family: 'Luckiest guy', cursive; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    #result, #note {
+      font-size: 36px;
+      padding: 20px;
+      text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+    }
+
+    #note {
+      margin-top: 20px; 
+    }
+
+  </style>
+</head>
+<body>
+
+  <p id="result"></p>
+  <p id="note"></p>
+
+  <script>
+    let age = 13;
+    let maxAge = 100;
+    let numPerDay = 2;
+
+    let totalRequired = (numPerDay * 365) * (maxAge - age);
+
+    document.getElementById("result").textContent =
+      "You will need " + totalRequired + " cucumber smoothies to last you until the ripe old age of " + maxAge + " !!";
+    
+    document.getElementById("note").textContent = "(⁠⁠˘⁠︶⁠˘⁠⁠)⁠.⁠｡⁠*⁠♡"
+  
+  </script>
+
+</body>
+</html>
