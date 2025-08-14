@@ -1,0 +1,31 @@
+<h1>Ruisse Oebree Candelaria  |  9 - Sodium   |   August 11, 2025</h1>
+
+<h2> Second Graded Exercise - First Quarter </h2>
+
+
+<p> Here's a list of my friends !!</p>
+<label for ="in1">Friend 1:</label>
+<input id="in1" type="text" placeholder="Friend1"> <br>
+
+<label for ="in1">Friend 2:</label>
+<input id="in2" type="text" placeholder="Friend2">
+<button onclick="addFriends()">Add Friends</button>
+
+<!-- type can be number/ date-->
+
+<div id="out1">
+
+
+</div>
+
+<script>
+    function addFriends() {
+        var in1 = document.getElementById("in1");
+        var in2 = document.getElementById("in2");
+        var out1 = document.getElementById("out1");
+
+        out1.innerHTML += "<p>" + in1.value + "</p>";
+        out1.innerHTML += "<p>" + in2.value + "</p>";
+
+    }
+</script>
