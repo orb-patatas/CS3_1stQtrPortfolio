@@ -1,0 +1,109 @@
+/* Iluvtsukii */
+body {
+    font-family: 'Baloo 2', sans-serif;
+    background: linear-gradient(135deg, #fdfdfd, #f5e7b2);
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    font-size: 20px;
+}
+
+
+h1 {
+    margin-top: 20px;
+    font-size: 34px;
+    color: #e2b857; 
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.1); 
+}
+
+h2 {
+    font-size: 26px;
+    color: #ff914d; 
+    margin-bottom: 28px;
+    position: relative;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: #e2b857; 
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    margin-right: 12px;
+    font-size: 18px;
+    color: #222;
+}
+
+input {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 30px; 
+    border: 2px solid #ccc;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #ff914d; 
+    outline: none;
+    box-shadow: 0 0 8px rgba(255,145,77,0.5);
+}
+
+button {
+    background-color: #ff914d;
+    border: none;
+    padding: 14px 40px;
+    font-size: 18px;
+    border-radius: 40px; 
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #e66d2d;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+#out1 {
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #444;
+}
+
+.form-layout {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.input-section {
+    text-align: left;
+}
+
+.output-section {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.output-section label {
+    font-weight: bold;
+}
