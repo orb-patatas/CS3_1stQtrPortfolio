@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="q1-g2-stylesheet.css">
+</head>
+
+<title>
+    3rd Graded Exercise
+</title>
+
+<body>
+
+   <h2>Q1 3rd Graded Exercise submitted by Ruisse Oebree Candelaria of 9 - Sodium</h2>
+
+   <p>Guess the number : ****</p>
+   <p>The number is from 1 to 100</p>
+
+   Enter your guess : <input id="guess"><br><br>
+   <button onclick="checkIt()">Check It</button>
+
+   <p id="result">Result:</p>
+
+   <script>
+       var dNumber = Math.floor(Math.random() * 100) + 1;
+
+       function checkIt() {
+           let userGuess = parseInt(document.getElementById("guess").value); 
+           let result = document.getElementById("result"); 
+
+           if (userGuess < dNumber) {
+               result.innerHTML = "Result: Higher";
+           } else if (userGuess > dNumber) {
+               result.innerHTML = "Result: Lower";
+           } else {
+               result.innerHTML = "Result: You are correct!";
+           }
+       }
+   </script>
+
+</body>
+</html>
