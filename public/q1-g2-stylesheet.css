@@ -3,7 +3,7 @@ body {
     font-family: 'Baloo 2', sans-serif;
     background: linear-gradient(135deg, #fdfdfd, #f5e7b2);
     color: #333;
-    text-align: center;
+    text-align: center    ;
     margin: 0;
     padding: 40px;
     font-size: 20px;
@@ -122,4 +122,8 @@ button:hover {
 
 .output-section label {
     font-weight: bold;
+}
+
+table {
+    
 }
