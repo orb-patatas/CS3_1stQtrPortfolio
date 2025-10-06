@@ -124,6 +124,12 @@ button:hover {
     font-weight: bold;
 }
 
-table {
-    
-}
+
+
+  th, td {
+    padding: 15px;
+  }
+
+  th {
+    background-color: #dfb05e;
+  }
