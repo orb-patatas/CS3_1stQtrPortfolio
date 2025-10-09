@@ -1,0 +1,63 @@
+@keyframes example1 {
+  from  {
+    background-color: black;
+  }
+  to {
+    background-color: red;
+  }
+}
+
+@keyframes example2 {
+  0% {background-color: red;}
+  25% {background-color: orange;}
+  50% {background-color: yellow;}
+  75% {background-color: green;}
+  100% {background-color: blue;}
+}
+
+@keyframes example3 {
+  0% {background-color: black;}
+  50% {background-color: red;}
+  100% {background-color: black;}
+}
+
+.container {
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+p {
+  margin: 0;
+}
+
+/*
+Let's break down these properties one by one:
+animation-name: This is the name of the animation as we declared above, in lines 1 and 10
+
+animation-duration: This determines how long, in seconds, a full cycle of the animation will take. Take note that if we do not define this, the default value is 0s. As such, no animation will happen.
+
+animation-iteration-count: This determines how many times the animation will run. We can set this to infinite to make the animation run forever. If we set this to 0, no animation will happen. If we don't define it, the animation happens once.
+*/
+
+#div1 {
+  color: white;
+  animation-name: example1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+#div2 {
+  color: black;
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+#div3 {
+  color: white;
+  animation-name: example3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
